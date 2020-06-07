@@ -3,7 +3,7 @@ var async = require('async');
 var Futures = require("futures")
 
 var SheetUtils = function (){
-  var doc = new GoogleSpreadsheet('1ZqSaFQAjE5zs9zHqYBTnpxO468iZLvU3SJbG5RdaCvI');
+  var doc = new GoogleSpreadsheet('');
   var sheet;
   var creds = require('../spaceBot-224968307243.json');
 
