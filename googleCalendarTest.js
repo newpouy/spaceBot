@@ -18,7 +18,7 @@ authClient.authorize(function (err, tokens) {
         //console.log(tokens);
         googleCal.events.list({
             auth: authClient,
-            calendarId: "nq8dbe6le91vrqvudlss9ielc0@group.calendar.google.com"
+            calendarId: ""
         }, function (err, CL) {
             if (err) {
                 console.log(err);
@@ -31,7 +31,7 @@ authClient.authorize(function (err, tokens) {
 
 googleCal.events.insert({
     auth: authClient,
-    calendarId: "nq8dbe6le91vrqvudlss9ielc0@group.calendar.google.com",
+    calendarId: "",
     resource: {
         start: {
           dateTime: "2016-05-10T09:30:00+09:00",
