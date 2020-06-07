@@ -2,7 +2,7 @@ var GoogleSpreadsheet = require('google-spreadsheet');
 var async = require('async');
 
 // spreadsheet key is the long id in the sheets URL
-var doc = new GoogleSpreadsheet('1ZqSaFQAjE5zs9zHqYBTnpxO468iZLvU3SJbG5RdaCvI');
+var doc = new GoogleSpreadsheet('');
 var sheet;
 
 async.series([
@@ -12,7 +12,7 @@ async.series([
     // OR, if you cannot save the file locally (like on heroku)
     var creds_json = {
       client_email: 'newpouy@google.com',
-      private_key: '2249683072431e3e05836dc80eed7f53ff97b7d9'
+      private_key: ''
     }
 
     doc.useServiceAccountAuth(creds, step);
