@@ -11,7 +11,7 @@ async.series([
     var creds = require('./spaceBot-224968307243.json');
     // OR, if you cannot save the file locally (like on heroku)
     var creds_json = {
-      client_email: 'newpouy@google.com',
+      client_email: '',
       private_key: ''
     }
 
