@@ -24,7 +24,7 @@
   ],
   "dependencies": {
     "google-spreadsheet": "2.0.x",
-    "googleapis": "5.2.x"
+    "googleapis": "59.0.x"
   },
   "devDependencies": {
 
